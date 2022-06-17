@@ -13,6 +13,8 @@ Autodartsbot is an automatic darts opponent for https://autodarts.io. It uses th
 
 These averages are the result of 5000 simulated matches for each level. The bot, like you and I, can also have good and bad legs. So it's possible that a level 5 bot averages 70 PPR in one leg and 40 PPR in the next.
 
+**Warning: The bot will mess up your accurracy statistics because his throws don't have to be corrected!!**
+
 # Installation & use
 See the [releases page](https://github.com/xinixke/autodartsbot/releases) for install instructions. After installation, on linux the bot can be started with the `autodartsbot` command, on windows you just doubleclick the exe file. When the bot is started for the first time, it'll ask you for your autodarts credentials. These are necessary to be able to communicate with the autodarts server. After you're logged in, autodartsbot will listen to the autodarts server for new games. When you start a new game, it'll look if you want to play against a bot and automatically take it's turn when necessary.
 
@@ -33,4 +35,5 @@ Well, actually it's quite simple. Just start a new game, add a player with the n
 - Only 1 bot per game. If you add multiple, only the first will be a bot.
 - Bot throws can't be undone, otherwise he'll freak out. So if you need to adjust your throw, do it before taking out your darts.
 - Bot logic is local. When communication with the server is disrupted, the local scores and the server scores won't match and bot shuts down.
+- As said in the intro, the bot messes up your accuracy stats.
 - Probably a lot more. Feel free to let me know when you encounter bugs.
