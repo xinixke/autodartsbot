@@ -14,7 +14,7 @@ Autodartsbot is an automatic darts opponent for https://autodarts.io. It uses th
 These averages are the result of 5000 simulated matches for each level. The bot, like you and I, can also have good and bad legs. So it's possible that a level 5 bot averages 70 PPR in one leg and 40 PPR in the next.
 
 # Installation & use
-See the [releases page](https://github.com/RingoM/autodartsbot/releases) for install instructions. After installation, on linux the bot can be started with the `autodartsbot` command, on windows you just doubleclick the exe file. When the bot is started for the first time, it'll ask you for your autodarts credentials. These are necessary to be able to communicate with the autodarts server. After you're logged in, autodartsbot will listen to the autodarts server for new games. When you start a new game, it'll look if you want to play against a bot and automatically take it's turn when necessary.
+See the [releases page](https://github.com/xinixke/autodartsbot/releases) for install instructions. After installation, on linux the bot can be started with the `autodartsbot` command, on windows you just doubleclick the exe file. When the bot is started for the first time, it'll ask you for your autodarts credentials. These are necessary to be able to communicate with the autodarts server. After you're logged in, autodartsbot will listen to the autodarts server for new games. When you start a new game, it'll look if you want to play against a bot and automatically take it's turn when necessary.
 
 ![image](https://user-images.githubusercontent.com/12089891/174286217-e04752a6-62f1-4d2b-bef5-ffb2896f0a05.png)
 
